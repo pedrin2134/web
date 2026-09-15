@@ -1,0 +1,29 @@
+#### 2. Código CSS Próprio (`css/style.css`)
+
+Crie regras customizadas incluindo a correção obrigatória do espaçamento da `navbar`:
+
+```css
+/* 1. Correção obrigatória: Títulos não ocultados pela navbar fixa */
+section {
+    scroll-margin-top: 80px; 
+}
+
+/* 2. Regra Estrita da Imagem Circular de Perfil */
+.img-perfil-strict {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+/* 3. Ajuste estético para os blocos de texto corrido */
+.text-justify {
+    text-align: justify;
+}
+
+/* 4. Suavização das transições nos cards e botões */
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) !important;
+}
